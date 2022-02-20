@@ -38,6 +38,11 @@ The following is a Mermaid sequence diagram:
 ```
 
 
-### Jekyll Themes
-The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Jekyll Themes and Pages configuration in _config.yml
+Among other things, the name of this theme is saved in the Jekyll `_config.yml` configuration file:
+````yml
+theme: jekyll-theme-dinky
+title: KahunaDev.io test Pages served from GitHub
+description: Description: KahunaDev.io test Pages served from GitHub
+````
 
