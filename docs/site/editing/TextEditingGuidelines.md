@@ -29,11 +29,11 @@ Mermaid provide an excellent way to include simple diagrams in your documentatio
 The following is a Mermaid sequence diagram:
 ```mermaid
 sequenceDiagram
-    participant Dr. Cox (SpeechLive app)
-    participant Enterprise App Interface
-    participant SEERoot (config. repository)
-    participant Domain Active Directory
-    participant Enterprise License Server
-    Dr. Cox->>Enterprise App Interface: Hi, please authenticate me! (POST /app/token)
-    Enterprise App Interface->>Dr. Cox: Here's your access token, valid for a few hours!
+    actor U1 as Dr. Cox using SpeechLive app
+    participant EAI as Enterprise App Interface
+    participant SEERoot as SEERoot (config. repository)
+    participant AD as Active Directory of Windows domain
+    participant L as Enterprise License Server
+    U1->>EAI: Hi, please authenticate me! (POST /app/token)
+    EAI->>U1: Here's your access token, valid for a few hours!
 ```
