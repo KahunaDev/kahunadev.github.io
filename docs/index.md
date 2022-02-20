@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Site content editing examples
 
-You can find a short guideline on site edditing [here](./site/editing/)
+You can find a short guideline on site edditing [here](./site/editing/TextEditingGuidelines.md)
 
 
 ### Jekyll Themes and Pages configuration in _config.yml
