@@ -84,7 +84,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 
 The following is the markup of Mermaid sequence diagram:
-```
+```mmd
 sequenceDiagram
     actor U1 as Dr. Cox using SpeechLive app
     participant EAI as Enterprise App Interface
