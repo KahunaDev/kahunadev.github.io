@@ -1,3 +1,9 @@
+---
+title: Markdown and Mermaid examples
+parent: FAQ for site editing
+has_children: false
+nav_order: 1
+---
 ## Markdown examples
 
 **Markdown** is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for:
