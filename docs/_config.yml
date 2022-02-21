@@ -1,4 +1,4 @@
 remote_theme: pmarsceill/just-the-docs
-_theme: jekyll-theme-dinky
+# theme: jekyll-theme-dinky
 title: KahunaDev.io test Pages served from GitHub
 description: Description: KahunaDev.io test Pages served from GitHub
