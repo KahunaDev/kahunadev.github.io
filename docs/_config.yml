@@ -2,3 +2,6 @@
 theme: jekyll-theme-dinky
 title: KahunaDev.io test Pages served from GitHub
 description: Description for KahunaDev.io test Pages served from GitHub
+
+plugins:
+  - jekyll-mermaid
