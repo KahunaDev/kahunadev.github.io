@@ -15,10 +15,19 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 You can find a short guideline on site editing [here](./site/editing/TextEditingGuidelines.md)
 
 
-## Jekyll Themes and Pages configuration in _config.yml
+## Jekyll Themes
+Currently the doucmentation is generated using the following Jekyll theme:
+```remote_theme: pmarsceill/just-the-docs
+
+Reasons:
+- pretty :)
+- generates a TOC sidebar based on YML frontmatter added to the very beginning of files
+
+
+##  Pages configuration in _config.yml
 Among other things, the name of this theme is saved in the Jekyll `_config.yml` configuration file:
 ````yml
-theme: jekyll-theme-dinky
+remote_theme: pmarsceill/just-the-docs
 title: KahunaDev.io test Pages served from GitHub
 description: Description: KahunaDev.io test Pages served from GitHub
 ````
