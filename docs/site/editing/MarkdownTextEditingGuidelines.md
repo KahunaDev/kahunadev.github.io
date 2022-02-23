@@ -1,10 +1,11 @@
 ---
-title: Markdown and Mermaid examples
+title: Markdown examples
 parent: FAQ for site editing
 has_children: false
 nav_order: 1
 ---
-## Markdown examples Jozzz
+
+# Markdown examples
 
 **Markdown** is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for:
 
@@ -78,31 +79,3 @@ Syntax highlighted code block
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-## Mermaid diagram example
-**Mermaid** provides an excellent way to include simple diagrams in your documentation. Check out the official [Mermaid help](https://mermaid-js.github.io/mermaid/#/) and show them some love!
-
-
-The following is the markup of Mermaid sequence diagram:
-```mmd
-sequenceDiagram
-    actor U1 as Dr. Cox using SpeechLive app
-    participant EAI as Enterprise App Interface
-    participant SEERoot as SEERoot (config. repository)
-    participant AD as Active Directory of Windows domain
-    participant L as Enterprise License Server
-    U1->>EAI: Hi, please authenticate me! (POST /app/token)
-    EAI->>U1: Here's your access token, valid for a few hours!
-```
-
-And here is the rendered output:
-```mermaid
-sequenceDiagram
-    actor U1 as Dr. Cox using SpeechLive app
-    participant EAI as Enterprise App Interface
-    participant SEERoot as SEERoot (config. repository)
-    participant AD as Active Directory of Windows domain
-    participant L as Enterprise License Server
-    U1->>EAI: Hi, please authenticate me! (POST /app/token)
-    EAI->>U1: Here's your access token, valid for a few hours!
-```
