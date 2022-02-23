@@ -12,12 +12,16 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ## Site content editing examples
 
-You can find a short guideline on site editing [here](./site/editing/TextEditingGuidelines.md)
+You can find a few short guideline on site editing:
+- [Markdown syntax](./site/editing/MarkdownTextEditingGuidelines.md)
+- [Mermaid syntax](./site/editing/MermaidDiagramEditingGuidelines.md)
 
 
 ## Jekyll Themes
 Currently the doucmentation is generated using the following Jekyll theme:
-```remote_theme: pmarsceill/just-the-docs
+```
+remote_theme: pmarsceill/just-the-docs
+```
 
 Reasons:
 - pretty :)
