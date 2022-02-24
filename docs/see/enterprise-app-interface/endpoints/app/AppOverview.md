@@ -21,7 +21,7 @@ sequenceDiagram
     EAI->>U1: Here's your access token, valid for a few hours!
 ```
 
-![Image](/img/EAI_APP_01_Token_Login_Sequence.png?raw=true "Optional Title")
+![Image](img/EAI_APP_01_Token_Login_Sequence.png?raw=true "Optional Title")
 
 
 
