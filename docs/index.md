@@ -4,4 +4,4 @@ has_children: true
 nav_order: 1
 ---
 # Integration possibilities with SpeechExec Enterprise
-j0zzz
+Zsolti
