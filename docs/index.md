@@ -5,3 +5,6 @@ nav_order: 1
 ---
 # Integration possibilities with SpeechExec Enterprise
 Zsolti
+
+
+![svg](champayne-glass-svgrepo-com.svg)
