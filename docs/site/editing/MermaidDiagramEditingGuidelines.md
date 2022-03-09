@@ -5,6 +5,33 @@ has_children: false
 nav_order: 2
 ---
 
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+
+
+
+# New stuff
+
+<div class="mermaid">
+    
+  sequenceDiagram
+      actor U1 as Dr. Cox using SpeechLive app
+      participant EAI as Enterprise App Interface
+      participant SEERoot as SEERoot (config. repository)
+      participant AD as Active Directory of Windows domain
+      participant L as Enterprise License Server
+      U1->>EAI: Hi, please authenticate me! (POST /app/token)
+    EAI->>U1: Here's your access token, valid for a few hours!
+    
+  </div>
+
+
+
+
+
 # About Mermaid diagrams
 **Mermaid** provides an excellent way to include simple diagrams in your documentation. Check out the official [Mermaid help](https://mermaid-js.github.io/mermaid/#/) and show them some love!
 
